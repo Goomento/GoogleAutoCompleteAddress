@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author @haihv433
+ * @copyright Copyright (c) 2020 Goomento (https://store.goomento.com)
+ * @package Goomento_Base
+ * @link https://github.com/Goomento/GoogleAutoCompleteAddress
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Goomento_GoogleAutoCompleteAddress::maintext"
+             title="AutoComplete Address"
+             module="Goomento_GoogleAutoCompleteAddress"
+             sortOrder="1"
+             parent="Goomento_Base::menu"
+             resource="Goomento_GoogleAutoCompleteAddress::maintext"/>
+
+        <add id="Goomento_GoogleAutoCompleteAddress::config"
+             title="Configuration"
+             module="Goomento_GoogleAutoCompleteAddress"
+             sortOrder="1"
+             parent="Goomento_GoogleAutoCompleteAddress::maintext"
+             action="adminhtml/system_config/edit/section/goomento_google_autocomplete_address"
+             resource="Goomento_GoogleAutoCompleteAddress::config"
+             />
+    </menu>
+</config>

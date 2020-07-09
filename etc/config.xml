@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author @haihv433
+ * @copyright Copyright (c) 2020 Goomento (https://store.goomento.com)
+ * @package Goomento_Base
+ * @link https://github.com/Goomento/GoogleAutoCompleteAddress
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <goomento_google_autocomplete_address>
+            <general>
+                <active>0</active>
+                <allowspecific>0</allowspecific>
+                <specificcountry>US,AU</specificcountry>
+            </general>
+        </goomento_google_autocomplete_address>
+    </default>
+</config>

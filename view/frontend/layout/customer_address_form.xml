@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author @haihv433
+ * @copyright Copyright (c) 2020 Goomento (http://goomento.com)
+ * @package Goomento_GoogleAutoCompleteAddress
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="content">
+            <block class="Goomento\GoogleAutoCompleteAddress\Block\Display"
+                   name="goomento_google_auto_complete_address_customer_address"
+                   after="-">
+
+            </block>
+        </referenceBlock>
+    </body>
+</page>

@@ -1,0 +1,26 @@
+<?php
+/**
+ * @author @haihv433
+ * @copyright Copyright (c) 2020 Goomento (https://store.goomento.com)
+ * @package Goomento_Base
+ * @link https://github.com/Goomento/GoogleAutoCompleteAddress
+ */
+
+use Goomento\GoogleAutoCompleteAddress\Helper\Config;
+
+$api_key = Config::staticConfigGet('api/key');
+$specificcountry = Config::staticConfigGetBool('allowspecific') ? Config::staticConfigGet('specificcountry') : 0;
+
+if ($api_key) : ?>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "goomento/google_autocomplete_address": {
+                "token": "<?php echo $api_key ?>",
+                "allow_countries": "<?php echo $specificcountry ?>"
+            }
+        }
+    }
+</script>
+    <style>.pac-container { z-index: 100000 !important; }</style>
+<?php endif ?>
