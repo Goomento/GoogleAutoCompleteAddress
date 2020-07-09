@@ -36,7 +36,7 @@ php bin/magento setup:di:compile
 
 You can try this way to upload the file to your server using [Filezilla](https://filezilla-project.org/)
 
-- Download [the latest version here](https://github.com/GoogleAutoCompleteAddress/archive/master.zip) 
+- Download [the latest version here](https://github.com/Goomento/GoogleAutoCompleteAddress/archive/master.zip) 
 - Extract `GoogleAutoCompleteAddress-master.zip`; 
 - Upload (or copy) the file to your server (or project) under `app/code/Goomento/GoogleAutoCompleteAddress`. 
 You should create a folder path `app/code/Goomento/GoogleAutoCompleteAddress` if not exist.

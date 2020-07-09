@@ -1,5 +1,4 @@
-# Magento 2 **Google Autocomplete Address**, module allows showing all suggested address and autofill when checkout, registration, 
-edit address
+# Magento 2 **Google Autocomplete Address**, module allows showing all suggested address and autofill when checkout, registration, edit address
   
 ## We are Goomento, we commit for OPEN and FREE 
 
@@ -25,7 +24,7 @@ Autofill the address fields when customer
 
 ### 4. Configuration
 
-To get Google API toke, please follow this link [Get the API key](https://developers.google.com/maps/documentation/javascript/get-api-key)
+To get Google API key, please follow this link [Get the API key](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
 ### 5. Screen capture
 
