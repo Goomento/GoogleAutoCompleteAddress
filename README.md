@@ -13,7 +13,23 @@
 
 **Magento 2 Enterprise**: 2.3.*
 
-### 3. Highlight features
+### 3. Open an issue
+
+To open an issue, click [here](https://github.com/Goomento/Base/issues).
+
+### 4. Contribution
+
+The basic flow for contribution is as follows
+
+1. Fork the repository.
+
+2. Make your fix/feature.
+
+3. Create a pull request (PR).
+
+**Goomento** will soon reply on your PR.
+
+### 6. Highlight features
 
 Autofill the address fields when customer 
 
@@ -22,11 +38,11 @@ Autofill the address fields when customer
 - Edit/ Create new address
 - Admin edit/ create address
 
-### 4. Configuration
+### 6. Configuration
 
 To get Google API key, please follow this link [Get the API key](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
-### 5. Screen capture
+### 7. Screen capture
 
 ![Goomento Google Autocomplete Address Configuration](https://i.imgur.com/vHjLvNI.png)
 

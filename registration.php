@@ -2,8 +2,8 @@
 /**
  * @author @haihv433
  * @copyright Copyright (c) 2020 Goomento (https://store.goomento.com)
- * @package Goomento_Base
- * @link https://github.com/Goomento/GoogleAutoCompleteAddress
+ * @package Goomento_GoogleAutoCompleteAddress
+ * @link https://github.com/Goomento/GiaoHangNhanhExpress
  */
 
 \Magento\Framework\Component\ComponentRegistrar::register(
